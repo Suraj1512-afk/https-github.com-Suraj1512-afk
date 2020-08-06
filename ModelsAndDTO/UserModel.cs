@@ -1,0 +1,12 @@
+﻿using System;
+
+namespace ModelsAndDTO
+{
+    public class UserModel
+    {
+        public int userId { get; set; }
+        public int id { get; set; }
+        public string title { get; set; }
+        public bool completed { get; set; }
+    }
+}
